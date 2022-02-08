@@ -1,0 +1,48 @@
+.header {
+    padding: .5rem 0;
+    font-size: 1rem;
+    background: #ccc;
+}
+
+.header__title {
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.header__link {
+    color: #000;
+    transition: all 0.25s ease-in-out;
+}
+
+.header__link:hover, .header__link:active {
+    text-decoration: none;
+    color: #3b6fb3;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.navbar__link {
+    color: #000;
+    transition: all 0.25s ease-in-out;
+    font-weight: 500;
+}
+
+.header_username_block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_username {
+    margin-left: .2rem;
+    font-size: 1rem;
+    font-style: italic;
+}
